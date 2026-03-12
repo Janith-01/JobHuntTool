@@ -1,0 +1,103 @@
+{
+    "personal_info": {
+        "name": "Janith Viranga",
+        "email": "janithviranga2001@gmail.com",
+        "phone": "+94 76 22 64985",
+        "linkedin": "linkedin.com/in/janith-viranga10479385",
+        "github": "https://github.com/Janith-01",
+        "portfolio": "https://viranga-ai.dev/",
+        "address": "90/B vihara mw kaduwela"
+    },
+    "summary": "As an undergraduate student passionate about pursuing a career in the tech industry, I am continuously updating my skills through certifications and online courses to stay current with the latest technologies. I enjoy tackling complex technical challenges, experimenting with new tools, and exploring innovative solutions. I am eager to join a team that values learning and innovation, and I am ready to contribute while growing professionally.",
+    "education": [
+        {
+            "institution": "SLIIT",
+            "degree": "BSc (Hons) in Information Technology",
+            "expected_graduation": "2026",
+            "started": "2022"
+        },
+        {
+            "institution": "Dharmasoka college -Ambalangoda",
+            "degree": "G.C.E. Advanced Level – science stream",
+            "year": "2021"
+        }
+    ],
+    "skills": [
+        "Javascript",
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "MySQL",
+        "HTML | CSS | Tailwind CSS | Bootstrap",
+        "Java",
+        "C",
+        "C++",
+        "PHP",
+        "Kotlin"
+    ],
+    "certifications": [
+        "CSS Essential Training - Completed",
+        "JavaScript - The Complete Guide 2024 (Beginner + Advanced) - Ongoing",
+        "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno) - Ongoing",
+        "Algorithms, Part I – Ongoing"
+    ],
+    "projects": [
+        {
+            "name": "WEB-BASED-GARAGE-MANAGEMENT APPLICATION",
+            "description": "The Garage Management System streamlines operations such as inventory management, customer affairs, supplier coordination, financial management, employee management, and vehicle service tracking. It supports full CRUD (Create, Read, Update, Delete) operations for managing users, vehicles, suppliers, and inventory. Built using technologies like React, External- CSS, and JavaScript for the front-end, with Node.js, Express.js, and MongoDB on the back-end, the system ensures efficiency and scalability. It follows the Model- View-Controller (MVC) architecture and employs RESTful APIs for communication, making it flexible, maintainable, and ideal for managing garage operations effectively.",
+            "technologies": "MERN Stack, Mongo DB, React, Node.js, JavaScript, Postmen",
+            "github": "https://github.com/Janith-01/Garage-Management-project"
+        },
+        {
+            "name": "WEATHER APPLICATION (C# WITH .NET CORE)",
+            "description": "Developed a weather application using C# and ASP.NET Core, which retrieves real-time weather data from the OpenWeatherMap API. The application allows users to search for weather by city name and view the current temperature, humidity, wind speed, and weather conditions. Additionally, it provides a 5-day weather forecast with graphical representations of temperature trends using Chart.js. The project incorporates user-friendly features such as search history, error handling, and responsive design. This project demonstrates proficiency in API integration, real-time data processing, and frontend development using JavaScript and Bootstrap. Developed using PHP, JavaScript, Css, MySql",
+            "github": "https://github.com/Janith-01/WeatherApp.git"
+        },
+        {
+            "name": "Codex: Collaborative Real-Time Code Playground",
+            "description": "Codex is a web-based collaborative code editor designed to facilitate real-time programming and group problem-solving. It provides a synchronized environment where multiple users can write, edit, and review code simultaneously, similar to Google Docs but optimized for developer workflows.",
+            "technologies": "JavaScript (ES6+), Node.js, WebSockets, Monaco Editor API"
+        },
+        {
+            "name": "PipChat – Real-Time Chat Application",
+            "description": "A modern, real-time messaging platform built with the MERN stack (MongoDB, Express.js, React, Node.js) and Socket.IO. PipChat enables instant messaging, secure authentication, online status tracking, and user profile management. Designed with Tailwind CSS for a sleek, responsive UI, it ensures a seamless user experience. This project showcases expertise in full-stack development, real-time communication, and WebSocket integration.",
+            "technologies": "MERN",
+            "github": "https://github.com/Janith-01/Real_Time-ChatApp- using-MERN.git"
+        },
+        {
+            "name": "EduTimeSync — Academic Timetable Management System",
+            "description": "A web-based system developed to streamline the scheduling of academic presentations in universities. EduTimeSync allows Admins to manage modules and users, LICs (Lead Instructor Coordinators) to create events and assign examiners, and Lecturers to provide availability, attend sessions, and grade students. Key features include: Automated Scheduling & Rescheduling with conflict detection, Availability Collection & Filtering for efficient examiner assignment, Auto-generation of Meeting Links for virtual sessions, Role-based Access Control and intuitive user interfaces.",
+            "role": "Team Leader",
+            "technologies": "MERN (MongoDB, Express.js, React.js, Node.js)",
+            "github": "https://github.com/NRCPerera/EduTimeSync"
+        },
+        {
+            "name": "Lawnova: AI-Powered Interactive Legal Role-Playing & Mock Trial Platform",
+            "description": "Lawnova is a specialized legal education platform designed to bridge the gap between theoretical legal knowledge and practical courtroom experience. Built with a MERN stack and microservices architecture, the platform focuses on the Sri Lankan legal jurisdiction, providing an immersive environment for law students to practice advocacy and case analysis.",
+            "technologies": "MERN, Docker, WebSocket, langchain, Python, Argument Evaluation Models",
+            "github": "https://github.com/Janith-01/LawnovaWebapp"
+        }
+    ],
+    "expertise": [
+        "Software Engineering Principles: Strong understanding of software engineering principles, capable of architecting solutions from initial concepts.",
+        "Full-Stack Web Development: Expertise in full-stack web development with modern technologies such as RESTful APIs, microservices, and responsive design, ensuring industry-standard code quality.",
+        "Conceptual and Practical Knowledge: Solid conceptual and practical knowledge in my areas of expertise.",
+        "Problem Solving: Skilled at breaking down complex industry-level problems and providing professional solutions.",
+        "Data Structures and Algorithms: Currently learning data structures and algorithms to enhance problem-solving skills and improve coding efficiency.",
+        "Self-Learner: Proficient in independently learning and using new technologies without requiring guidance or support"
+    ],
+    "references": [
+        {
+            "name": "Dr. Kalpani Manathunga",
+            "position": "Head of Department of Software Engineering, Senior Lecturer SLIIT",
+            "email": "kalpani.m@sliit.lk",
+            "full_name": "Kalpani Manathunga"
+        },
+        {
+            "name": "Mr. Sachith Hettigodage",
+            "position": "Operation Engineer Sysco Labs",
+            "email": "sachith.hettigodage@syscolabs.com",
+            "phone": "+94 77 601 5409"
+        }
+    ]
+}
