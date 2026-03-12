@@ -26,8 +26,7 @@ class Database:
         if cls._async_client is None:
             cls._async_client = AsyncIOMotorClient(
                 settings.MONGO_URI,
-                tls=True,
-                tlsCAFile=certifi.where()
+                serverSelectionTimeoutMS=5000
             )
             logger.info(f"Async MongoDB client connected to {settings.MONGO_URI}")
         return cls._async_client
@@ -38,8 +37,7 @@ class Database:
         if cls._sync_client is None:
             cls._sync_client = MongoClient(
                 settings.MONGO_URI,
-                tls=True,
-                tlsCAFile=certifi.where()
+                serverSelectionTimeoutMS=5000
             )
             logger.info(f"Sync MongoDB client connected to {settings.MONGO_URI}")
         return cls._sync_client
