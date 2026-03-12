@@ -1,0 +1,55 @@
+# ============================================
+# JobHuntTool - Docker Compose Configuration
+# ============================================
+version: "3.9"
+
+services:
+  # ── MongoDB ──────────────────────────────────────────────
+  mongodb:
+    image: mongo:7
+    container_name: jobhunt_mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: jobhunttool
+    restart: unless-stopped
+
+  # ── Backend API ──────────────────────────────────────────
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jobhunt_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./output:/app/output
+      - ./data:/app/data
+      - ./templates:/app/templates
+    environment:
+      MONGO_URI: mongodb://mongodb:27017
+      MONGO_DB_NAME: jobhunttool
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+      EMAIL_HOST: ${EMAIL_HOST}
+      EMAIL_USER: ${EMAIL_USER}
+      EMAIL_PASSWORD: ${EMAIL_PASSWORD}
+    depends_on:
+      - mongodb
+    restart: unless-stopped
+
+  # ── Frontend Dashboard ───────────────────────────────────
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: jobhunt_frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  mongo_data:
